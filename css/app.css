@@ -3,23 +3,28 @@ body{
 	font-size: 16px;
 }
 
+input{
+	border: none;
+	border-bottom: 2px solid #1e90ff;
+	width: 300px;
+}
+
+input:focus{
+	outline: none;
+}
+
+label{
+	color: #9e9e9e;
+}
+
 .centre{
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	border: 2px solid #bdbdbd;
+	border: 2px solid #e0e0e0;
     padding: 50px;
     border-radius: 2px;
-}
-
-input{
-	border:none;
-	border-bottom: 2px solid #1e90ff;
-}
-
-input:focus{
-	outline: none;
 }
 
 .stl{
@@ -34,4 +39,5 @@ input:focus{
     border: none;
     padding: 4px;
     border-radius: 2px;
+    cursor: pointer;
 }
