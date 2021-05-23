@@ -2,12 +2,12 @@
 <br><br>
 
 <form id="log" onsubmit="formsub();">
-	<label for="usrnm">Username</label><br><input placeholder="Ex: Code21" type="text" id="usrnm" ng-model="username">
+	<label for="usrnm">Username</label><br><input placeholder="Enter your username, ex: code21" type="text" id="usrnm" minlength="6" pattern="[A-Za-z0-9]+" title="Only 6 or more alphanumeric characters allowed" ng-model="username" required>
 	<br><br>
 
 	<datepicker></datepicker>
 
-	<label for="pass">Password</label><br><input placeholder="Enter 6 characters or more" type="password" id="pass" ng-model="pwd">
+	<label for="pass">Password</label><br><input placeholder="Enter your password" type="password" id="pass" minlength="6" pattern="[A-Za-z0-9]+" title="Only 6 or more alphanumeric characters allowed" ng-model="pwd" required>
 	<br><br>
 </form>
 
