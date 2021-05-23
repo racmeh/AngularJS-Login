@@ -20,5 +20,6 @@ app.directive("datepicker", function() {
 });
 
 function formsub(){
-alert('Submitted!');
+alert('Successful!');
+window.location = '/login';
 }
