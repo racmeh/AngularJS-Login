@@ -41,3 +41,8 @@ label{
     cursor: pointer;
     font-size: 15px;
 }
+
+::placeholder{
+	color:#BDBDBD;
+	font-size:13px
+}
