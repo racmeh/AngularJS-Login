@@ -1,14 +1,23 @@
-<form id="reg" onsubmit="formsub();">
-	<label for="nm">Name</label><br><input type="text" id="nm" ng-model="name"><br><br>
+<span class="stl">Register</span>
+<br><br>
 
-	<label for="phn">Phone</label><br><input type="number" id="phn" ng-model="phone"><br><br>
+<form id="reg" onsubmit="formsub();">
+	<label for="nm">Name</label><br><input type="text" placeholder="Ex: Tony Stark" id="nm" ng-model="name">
+	<br><br>
+
+	<label for="phn">Phone</label><br><input placeholder="Ex: 123456789" type="number" id="phn" ng-model="phone">
+	<br><br>
 
 	<datepicker></datepicker>
 
-	<label for="usrnm">Username</label><br><input type="text" id="usrnm" ng-model="username"><br><br>
+	<label for="usrnm">Username</label><br><input placeholder="Ex: Code21" type="text" id="usrnm" ng-model="username">
+	<br><br>
 
-	<label for="pass">Password</label><br><input type="password" id="pass" ng-model="pwd"><br><br>
+	<label for="pass">Password</label><br><input placeholder="Enter 6 characters or more" type="password" id="pass" ng-model="pwd">
+	<br><br>
 </form>
-<button type="submit" form="reg" >Submit</button><br><br>
 
-<a href="#!login" style="color:blue">Login</a>
+<button class="btn" type="submit" form="reg">Submit</button>
+<br><br>
+
+<a style="text-decoration: none;" class="stl" href="#!login">Login</a>

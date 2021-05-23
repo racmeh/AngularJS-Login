@@ -1,11 +1,17 @@
+<span class="stl">Login</span>
+<br><br>
+
 <form id="log" onsubmit="formsub();">
-	<label for="usrnm">Username</label><br><input type="text" id="usrnm" ng-model="username"><br><br>
+	<label for="usrnm">Username</label><br><input placeholder="Ex: Code21" type="text" id="usrnm" ng-model="username">
+	<br><br>
 
 	<datepicker></datepicker>
 
-	<label for="pass">Password</label><br><input type="password" id="pass" ng-model="pwd"><br><br>
+	<label for="pass">Password</label><br><input placeholder="Enter 6 characters or more" type="password" id="pass" ng-model="pwd">
+	<br><br>
 </form>
-<button type="submit" form="log">Submit</button><br><br>
 
+<button class="btn" type="submit" form="log">Submit</button>
+<br><br>
 
-<a href="#!register" style="color:blue">New? Register</a>
+<a style="text-decoration: none;" class="stl" href="#!register">New? Register</a>
