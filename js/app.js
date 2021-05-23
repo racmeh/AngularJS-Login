@@ -12,3 +12,9 @@ app.config(function($routeProvider) {
         templateUrl : "register.htm"
     });
 });
+
+app.directive("datepicker", function() {
+  return {
+    template : "<label for='dtpick'>Date of Birth</label><br><input type='date' id='dtpick' ng-model='dob'><br><br>"
+  };
+});
