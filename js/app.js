@@ -21,5 +21,6 @@ app.directive("datepicker", function() {
 
 function formsub(){
 alert('Successful!');
-window.location = '/login';
+window.location='/AngularJS-Login/#!/login';
+window.location.reload();
 }
