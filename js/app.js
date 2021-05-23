@@ -15,7 +15,7 @@ app.config(function($routeProvider) {
 
 app.directive("datepicker", function() {
   return {
-    template : "<label for='dtpick'>Date of Birth</label><br><input type='date' id='dtpick' ng-model='dob' required><br><br>"
+    template : "<label for='dtpick'>Date of Birth</label><br><input type='date' id='dtpick' ng-model='dob' required>"
   };
 });
 

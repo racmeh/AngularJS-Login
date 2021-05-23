@@ -2,21 +2,32 @@
 <br><br>
 
 <form id="reg" onsubmit="formsub();">
-	<label for="nm">Name</label><br><input type="text" placeholder="Ex: Tony Stark" id="nm" pattern="[A-Za-z\s]+" title="Only alphabets & spaces allowed" ng-model="name" required autofocus>
+	<label for="nm">Name</label>
+	<br>
+	<input type="text" placeholder="Ex: Tony Stark" id="nm" pattern="[A-Za-z\s]+" title="Only alphabets & spaces allowed" ng-model="name" required autofocus>
 	<br><br>
 
-	<label for="mail">Email</label><br><input placeholder="Ex: xyz@abc.com" type="email" id="mail" ng-model="ml" required>
+	<label for="mail">Email</label>
+	<br>
+	<input placeholder="Ex: xyz@abc.com" type="email" id="mail" ng-model="ml" required>
 	<br><br>
 
-	<label for="phn">Phone</label><br><input placeholder="Ex: 123456789" type="number" id="phn" maxlength="12" ng-model="phone" required>
+	<label for="phn">Phone</label>
+	<br>
+	<input placeholder="Ex: 123456789" type="number" id="phn" maxlength="12" ng-model="phone" required>
 	<br><br>
 
 	<datepicker></datepicker>
-
-	<label for="usrnm">Username</label><br><input placeholder="Enter 6 or more alphabets or numbers" type="text" id="usrnm" minlength="6" pattern="[A-Za-z0-9]+" title="Only 6 or more alphanumeric characters allowed" ng-model="username" required>
 	<br><br>
 
-	<label for="pass">Password</label><br><input placeholder="Enter 6 or more alphabets or numbers" type="password" id="pass" minlength="6" pattern="[A-Za-z0-9]+" title="Only 6 or more alphanumeric characters allowed" ng-model="pwd" required>
+	<label for="usrnm">Username</label>
+	<br>
+	<input placeholder="Only alphabets/numbers" type="text" id="usrnm" minlength="6" pattern="[A-Za-z0-9]+" title="Only 6 or more alphanumeric characters allowed" ng-model="username" required>
+	<br><br>
+
+	<label for="pass">Password</label>
+	<br>
+	<input placeholder="Only alphabets/numbers" type="password" id="pass" minlength="6" pattern="[A-Za-z0-9]+" title="Only 6 or more alphanumeric characters allowed" ng-model="pwd" required>
 	<br><br>
 </form>
 
