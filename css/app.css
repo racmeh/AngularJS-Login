@@ -10,7 +10,7 @@ input{
 }
 
 @media only screen and (max-width: 768px) {
-  /*Responsiveness for phones*/
+  /*Responsiveness for mobile devices*/
   input{
 	width: 50vw;
   }
